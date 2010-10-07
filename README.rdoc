@@ -1,0 +1,31 @@
+ffi-opencv
+    by Kazuhisa TAKEI < kazuhisa at gmail dot com >
+    http://github.com/kazu/ffi-opencv
+
+== DESCRIPTION:
+
+ffi-opencv is a ruby FFI interface towards OpenCV library.
+FFI layer ensures compatibility among all Ruby implementation that 
+support it. at the moment this menas that you can run the same ffi-opencv 
+script with MRI Ruby and JRuby.
+
+ffi-opencv API aims to be a 1:1 transposition of the OpenCV C API: 
+so dont expect idiomatic ruby inside!
+
+== FEATURES:
+
+== REQUIREMENTS:
+
+* ffi >= 0.3.0
+* OpenCV >= 2.0
+
+== DOWNLOAD/INSTALL
+
+== LINKS
+
+1. http://github.com/kazu/ffi-opencv
+
+== LICENSE:
+
+GPL2
+Copyright (c) 2010 Kazuhisa TAKEI
