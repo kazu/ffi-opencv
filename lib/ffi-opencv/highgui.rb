@@ -9,6 +9,7 @@ module Highgui
   CV_CAP_PROP_FORMAT = 8
   CV_CAP_PROP_MODE = 9
 
+  attach_function :cvCreateFileCapture, [:string], :pointer #highgui 
   attach_function :cvCreateCameraCapture,[:int],:pointer  # highgui
   attach_function :cvNamedWindow,[:string, :int], :int # highgui 
   attach_function :cvQueryFrame, [:pointer], CV::IplImage # highgui
