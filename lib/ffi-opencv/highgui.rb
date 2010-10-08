@@ -1,5 +1,7 @@
 module Highgui
   extend FFI::Library
+  CV_WINDOW_AUTOSIZE = 1
+  
   # capture property
   CV_CAP_PROP_POS_MSEC = 0
   CV_CAP_PROP_POS_FRAMES = 1
